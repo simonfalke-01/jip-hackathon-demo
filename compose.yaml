@@ -1,8 +1,7 @@
 services:
   app:
+    container_name: workshop-demo
     build: .
-    expose:
-      - "3000"
     networks:
       - pangolin
 
